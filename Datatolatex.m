@@ -44,7 +44,7 @@ for k=1:10
    Gl1(k)=strrep(Gl(k),'\','\(\displaystyle\' );
    Gl2(k)=strcat(Gl1(k),'\)');
 end
-%% Converting numbers to equation type eneviroment in latex
+%% Converting numbers to equation type enviroment in latex
 for k=1:10
    h11op{k}=latex((vpa(h1op(k),3)));
    hl1op(k)=strcat('$',h11op(k),'$');
