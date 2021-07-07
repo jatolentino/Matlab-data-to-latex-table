@@ -55,6 +55,7 @@ for k=1:10
    Bl1(k)=strcat('$',Bl(k),'$');
 end
 %
+
 T=table(hl1op',Al1',Bl1',Gl2','VariableNames',{'h1op','A','B','Gs'});
 Ta=T(1:10,:);
 %Tb=T(6:10,:);
