@@ -41,6 +41,7 @@ for k=1:10
     Ax(k)=double(subs(diff(Fu1,h1),{h1 u},{h1opx(k) uopx(k)}));
     Bx(k)=double(subs(diff(Fu1,u),{h1 u},{h1opx(k) uopx(k)}));
 end
+
 %% Converting G(s) to equation type eneviroment in latex
 for k=1:10
    Gl{k}=latex((vpa(G(k),6))); %latex((vpa(G(k),4)));
