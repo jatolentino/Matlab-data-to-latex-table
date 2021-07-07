@@ -28,6 +28,7 @@ Gl={};
 %     B(i)=1/(beta1*sqrt(1-((He-h1op(i))/(He))^2));
 %     G(i)=vpa(B(i)/(s-A(i)),6); %vpa(B(i)/(s-A(i)),4)
 % end
+
 h1opx=0.05:0.05:1;
 udisx=100*ones(1,10);
 uopx=[];
