@@ -5,7 +5,6 @@ syms h1 h2 u
 % syms He beta1 h1op adis b q_1 q_2 q_3 q_0 h1opi
 % alpha1 = 0.0004949; 
 
-
 beta1 = 0.15;
 He = 0.52;
 V=[];
